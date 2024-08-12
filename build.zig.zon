@@ -1,0 +1,13 @@
+.{
+    .name = "repro",
+    .version = "0.0.0",
+    .dependencies = .{
+        .foo = .{ .path = "foo" },
+    },
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "bar.zig",
+        "foo",
+    },
+}
